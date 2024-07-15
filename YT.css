@@ -31,7 +31,7 @@ body {
 
 
 
-nav {
+#nav {
 	width: auto;
 	margin: auto;
 }
@@ -123,6 +123,9 @@ nav {
 	cursor: pointer;
 }	
 		
+	#nav {
+		visibility: hidden;
+	}	
 	
 }	
 	
