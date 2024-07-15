@@ -113,11 +113,7 @@ nav {
 	#menu,#amen{
 		visibility: visible;
 	}
-	#menu,#amen:hover {
-		display: flex;
-		flex-direction: column;
-	    transition: .4s;
-}
+
 
 #menu,#amen:hover {
 	cursor: pointer;
