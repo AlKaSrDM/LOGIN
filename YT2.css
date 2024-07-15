@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Bodoni Moda SC", serif;
+}
+
+
+body {
+background-image:linear-gradient(rgba(0,0,0,1.0),rgba(0,0,0,0.9)),url(c3.webp);
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+
+    justify-content: center;
+	align-items: center;
+
+}
+
+
+
+
+
+#container {
+	display: flex;
+	justify-content: center;
+    
+	height: 80%;
+	width: 70%;
+	background-color: rgba(255,255,255,0.1);
+	border-radius: 20px;
+	
+	
+	align-items: center;
+    text-transform: uppercase;
+}
+
+#close {
+	display: inline;
+	padding: 40px 40px 470px 0;
+	height: 40px;
+	width: 40px;
+
+}
+
+
+
+nav {
+    display: flex;
+	width: auto;
+	padding: 0 0 0 70px;
+    flex-direction: column;
+/*    align-items: center;*/
+	justify-content: center;
+    margin: auto;
+}
+
+
+
+
+#container nav a {
+	display: flex;
+	color: white;
+    padding: 30px;
+    text-decoration: none;
+	font-weight: 600;
+	font-size: 25px;
+	justify-content: center;
+	
+}
+/*----------------------------*/
+
+#container nav a:hover {
+	color: aqua;
+}
+
+
+
+
+
+
+
